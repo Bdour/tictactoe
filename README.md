@@ -1,5 +1,7 @@
 # tictactoe
 
+flutter run --release -d web-server --web-hostname=0.0.0.0 --web-port=3000
+
 A mobile game built in Flutter. You can find it published on stores:
 
 - [App Store (iOS)](https://apps.apple.com/us/app/tic-tac-toe-puzzle-game/id1611729977)

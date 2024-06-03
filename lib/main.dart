@@ -86,8 +86,8 @@ Future<void> main() async {
     /// Prepare the google_mobile_ads plugin so that the first ad loads
     /// faster. This can be done later or with a delay if startup
     /// experience suffers.
-    adsController = AdsController(MobileAds.instance);
-    adsController.initialize();
+    // adsController = AdsController(MobileAds.instance);
+    // adsController.initialize();
   }
 
   GamesServicesController? gamesServicesController;
